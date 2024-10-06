@@ -292,7 +292,7 @@ export default function AddClient({ itemId }) {
                   <TableBody>
                     {allUsers == null ? <h6>No Cliend Added</h6> :
                       allUsers.map((row) => {
-                        console.log(formatDate(row.dob))
+                        console.log(formatDate(row.image))
                         return <>
                           <TableRow
                             key={row.name}
@@ -301,7 +301,7 @@ export default function AddClient({ itemId }) {
                           >
                             <TableCell component="th" scope="row" sx={{ padding: "10px" }}>
                               <img
-                                src={require(`../../../server/uploads/${row.image}`)}
+                                src={require(`https://zenithgym.onrender.com/uploads/${row.image}`)}
                                 height={70}
                                 width={70}
                                 alt=""
