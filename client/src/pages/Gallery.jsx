@@ -169,13 +169,13 @@ export default function Gallery() {
                                 allImages.map((el) => (
                                     <>
                                         <div className={style.image_div}>
-                                            {/* <img
-                                                src={require(`http://localhost:5000/uploads/${el.image}`)}
+                                             <img
+                                                src={require(`../../../server/uploads/${el.image}`)}
                                                 height={200}
                                                 width={200}
                                                 alt=""
                                                 className={style.image}
-                                            /> */}
+                                            /> 
                                         </div>
                                     </>
                                 ))
