@@ -301,7 +301,7 @@ export default function AddClient({ itemId }) {
                           >
                             <TableCell component="th" scope="row" sx={{ padding: "10px" }}>
                               <img
-                                src={require(`../../../server/uploads/${row.image}`)}
+                                src={require(`https://zenithgym.onrender.com/uploads/${row.image}`)}
                                 height={70}
                                 width={70}
                                 alt=""
